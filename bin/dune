@@ -1,4 +1,6 @@
 (executable
  (public_name double_pendulum)
  (name main)
- (libraries double_pendulum graphics unix))
+ (libraries double_pendulum graphics unix)
+ (flags
+  (:standard -w -26-32-33)))
