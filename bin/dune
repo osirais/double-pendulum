@@ -1,4 +1,4 @@
 (executable
  (public_name double_pendulum)
  (name main)
- (libraries double_pendulum graphics))
+ (libraries double_pendulum graphics unix))
